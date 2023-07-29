@@ -12,10 +12,10 @@ const InfoGlasses = ({ imgGlasses }) => {
         width: "480px",
       }}
     >
-      <h2 style={{ color: "blue" }}>{imgGlasses?.name}</h2>
+      <h2 style={{ color: "black" }}>{imgGlasses?.name}</h2>
       <p style={{ color: "while", fontSize: 30}}>{imgGlasses?.price}$</p>
       <p style={{ color: "while" }}>{imgGlasses?.desc}</p>
-     
+    
     </div>
   );
 };
